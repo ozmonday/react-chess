@@ -15,7 +15,6 @@ const Square = ({ row, col, children, value }) => {
   };
 
   const handleOnClick = () => {
-    //alert(`${row}, ${col}`);
     const target = [row, col];
     setPostion(target);
   };

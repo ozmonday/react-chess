@@ -15,7 +15,7 @@ export const posiblePositionKnight = (current, target) => {
   posible = posible.filter(
     (v) => v[0] >= 0 && v[0] <= 7 && v[1] >= 0 && v[1] <= 7
   );
-
+  
   posible.forEach((v) => {
     if (v[0] === target[0] && v[1] === target[1]) {
       result = true
